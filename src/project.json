@@ -1,0 +1,30 @@
+{
+    "helios":
+    {
+        "bottle": "bottle.malibucoding.com"
+    },
+    "owl":
+    {
+        "bottle": "api-bottle.malibucoding.com"
+    },
+    "verified":
+    {
+        "bottle": "bottle.verified"
+    },
+    "abe":
+    {
+       "bottle": "abe-bottle.malibucoding.com"
+    },
+    "whitelabel":
+    {
+       "bottle": "whitelabel-bottle.malibucoding.com"
+    },
+    "mycredit":
+    {
+        "bottle": "mycr-bottle.malibucoding.com"
+    },
+    "cms":
+    {
+        "bottle": "cms-bottle.malibucoding.com"
+    }
+}
