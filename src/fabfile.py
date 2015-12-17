@@ -1,10 +1,15 @@
 from fabric.api import * 
 from json import load
 import urllib2
+import logging
 
-def load_config():
-    with open('project.json') as f:
-        return load(f)
+def load_config(project):
+    try:
+        with open('fabric-config.json') as f:
+            return load(f)
+    except Exception as e:
+        logging.error('Failed to open config file. Error: {0}'.format(e))
+        exit(2)
 
 def push_to_server(project, app_env, build_num, local_dir, local_code):
     put(local_code, '/var/tmp/')
